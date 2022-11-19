@@ -1,0 +1,50 @@
+.input-group-text {
+    font-weight: bold;
+    min-Width: 220px;
+    max-width: 220px;
+}
+
+.drop {
+    width: 380px;
+}
+
+.ico {
+    margin-left: 3px;
+}
+
+.btn-primary {
+    background-color: rgb(0, 110, 235) !important;
+}
+
+.btn-primary:hover {
+    transition: 0.5ms;
+    background-color: rgb(57, 149, 255) !important;
+}
+
+.coin-logo {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .input-group-text {
+        min-width: 178px !important;
+        max-width: 178px !important;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .form-control {
+        font-size: 0.8rem;
+    }
+    .ico {
+        margin-left: 2px;
+    }
+    .drop {
+        width: 200px;
+    }
+    .coin-logo {
+        height: 22px;
+        width: 22px;
+    }
+}
