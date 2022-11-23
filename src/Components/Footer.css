@@ -1,0 +1,22 @@
+.copyright {
+    color: rgba(255, 255, 255, 0.396);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .copyright {
+        width: 60% !important;
+    }
+    .copyright p {
+        text-align: center;
+        font-size: 0.6rem;
+    }
+}

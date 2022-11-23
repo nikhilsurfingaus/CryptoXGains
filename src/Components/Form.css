@@ -27,6 +27,19 @@
     margin-right: 5px;
 }
 
+.major {
+    margin-top: -20px;
+}
+
+.ref-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.refresh {
+    margin-top: 4px;
+}
+
 @media only screen and (max-width: 768px) {
     .input-group-text {
         min-width: 178px !important;
@@ -46,5 +59,12 @@
     .coin-logo {
         height: 22px;
         width: 22px;
+    }
+    .ref-icon {
+        height: 18px;
+        width: 18px;
+    }
+    .refresh {
+        margin-top: 8px;
     }
 }

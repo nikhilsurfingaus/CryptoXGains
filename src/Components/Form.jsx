@@ -2,11 +2,13 @@ import React from 'react'
 import FormInputLabel from './FormInputLabel'
 import {FaDollarSign} from "react-icons/fa"
 import {RiCoinsFill, RiCoinFill} from "react-icons/ri"
+import {BiRefresh, BiRocket} from "react-icons/bi"
 import {useState} from 'react'
 import './Form.css'
 import Select from 'react-select';
 import Axios from 'axios';
 import {useEffect} from 'react'
+import Footer from './Footer';
 
 function Form() {
 
@@ -76,8 +78,13 @@ function Form() {
         })
       }
 
+      function refreshPage(){
+        window.location.reload();
+    } 
+
   return (
-    <form onSubmit={(e)=> e.preventDefault()}>
+    <form className='major' onSubmit={(e)=> e.preventDefault()}>
+
 
         <div className='input-group mb-3'>
             <span className='input-group-text'> Select Cryptocurrenecy <RiCoinFill className='ico'/></span>
@@ -117,8 +124,16 @@ function Form() {
             {xGain}{result}
         </h4>
 
-        <button type='submit' className='btn btn-primary btn-lg w-50 center' 
-            onClick={calculateGains}> Calculate  </button>
+        <button type='submit' className='btn btn-info btn-lg w-50 center' 
+            onClick={calculateGains}> <BiRocket className='ref-icon'/> Calculate  </button>
+
+
+        <button type='submit' className='btn btn-info btn-sm w-10 float-left refresh' 
+            onClick={refreshPage}> <BiRefresh className='ref-icon'/>   
+        </button>
+
+        <Footer/>
+
     </form>
   )
 }
