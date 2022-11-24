@@ -1,11 +1,18 @@
 .input-group-text {
     font-weight: bold;
-    min-Width: 220px;
-    max-width: 220px;
+    min-Width: 230px;
+    max-width: 230px;
+    background-color: #35353a;
+    color: white;
+    border: 1px solid #35353a !important;
+}
+
+.rocket {
+    color: #d2ad56;
 }
 
 .drop {
-    width: 380px;
+    width: 333px;
 }
 
 .ico {
@@ -28,7 +35,15 @@
 }
 
 .major {
-    margin-top: -20px;
+    margin-top: -5px;
+    border: 3px solid #b09e73;
+    border-radius: 25px;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1c5a6f, #277081);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2d6b80, #146172);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px 15px 15px 15px;
 }
 
 .ref-icon {

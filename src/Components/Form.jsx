@@ -8,7 +8,6 @@ import './Form.css'
 import Select from 'react-select';
 import Axios from 'axios';
 import {useEffect} from 'react'
-import Footer from './Footer';
 
 function Form() {
 
@@ -83,7 +82,7 @@ function Form() {
     } 
 
   return (
-    <form className='major' onSubmit={(e)=> e.preventDefault()}>
+    <form className='major animate__animated animate__fadeIn' onSubmit={(e)=> e.preventDefault()}>
 
 
         <div className='input-group mb-3'>
@@ -124,15 +123,14 @@ function Form() {
             {xGain}{result}
         </h4>
 
-        <button type='submit' className='btn btn-info btn-lg w-50 center' 
-            onClick={calculateGains}> <BiRocket className='ref-icon'/> Calculate  </button>
+        <button type='submit' className='btn btn-dark btn-lg w-50 center' 
+            onClick={calculateGains}> <BiRocket className='ref-icon rocket'/> Calculate  </button>
 
 
-        <button type='submit' className='btn btn-info btn-sm w-10 float-left refresh' 
+        <button type='submit' className='btn btn-dark btn-sm w-10 float-left refresh' 
             onClick={refreshPage}> <BiRefresh className='ref-icon'/>   
         </button>
 
-        <Footer/>
 
     </form>
   )

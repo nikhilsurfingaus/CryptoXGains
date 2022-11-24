@@ -1,13 +1,20 @@
 import './App.css';
-import {BsCashCoin} from "react-icons/bs"
 import Form from './Components/Form';
-
+import logo from './Assets/logo.png';
+import Footer from './Components/Footer';
+import ParticlesBg from './Components/ParticlesBg';
 
 function App() {
+
+
   return (
     <div className="App" style={{maxWidth: 600, margin: "1rem auto"}}>
-      <h1 className='display-1 my-5' > <BsCashCoin/> Crypto X Gain Calculator</h1>
-      <Form/>
+      <img className='display-1 my-5 logo animate__animated animate__slideInDown' src={logo} alt='site logo' /> 
+      <ParticlesBg />
+
+      <Form />
+      <Footer/>
+
     </div>
   );
 }
