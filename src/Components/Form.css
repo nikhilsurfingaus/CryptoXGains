@@ -35,7 +35,7 @@
 }
 
 .major {
-    margin-top: -5px;
+    margin-top: 0px;
     border: 3px solid #b09e73;
     border-radius: 25px;
     /* fallback for old browsers */

@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App" style={{maxWidth: 600, margin: "1rem auto"}}>
-      <img className='display-1 my-5 logo animate__animated animate__slideInDown' src={logo} alt='site logo' /> 
+      <img className='display-1 my-4 logo animate__animated animate__slideInDown' src={logo} alt='site logo' /> 
       <ParticlesBg />
 
       <Form />
