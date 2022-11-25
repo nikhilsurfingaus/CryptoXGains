@@ -26,7 +26,7 @@ The application will then compute the following:
 - Total Intial Investment
 - Total Final Investment
 
-The end result will determine the number of 'X Gains' required for the users ROI to be successful.
+**The end result will determine the number of 'X Gains' required for the users ROI to be successful.**
 
 ## Screenshots 
 <p float="left">
