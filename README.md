@@ -12,21 +12,19 @@ src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto
 - **PostMan** is the API client which handles requests to the **CoinStats** Cryptp API for metrics about the current crypto names, icons and symbols.
 
 ## Description 
-Quiver calls all ocean lovers and wave chargers to own pieces of surfing history with NFT surfboards ridden by current and past legends of proffessional surfing. Quiver also aims to contribute towards the security of Ethereum Smart Contarcts with numerous projects that need your support.
+The Crypto X Gains web application enabled users to determine how many "X" their ROI (Return On Investement) will be for a given Token/Currency.
 
-Our website offers the following features:
+Our web application requires the following input:
+- Cryptocurrency/Token
+- Intial Buy Price Coin/Token
+- Total Tokens/Coins
+- Target Sell Price Coin/Token
 
-- NFT Market Place
+The application will then compute the following:
+- Total Intial Investment
+- Total Final Investment
 
-- Interactive Roadmap
-
-- Community Live Chat
-
-- Projects Showcase 
-
-- Live Trading Chart & Metrics
-
-- Desktop/Mobile Compatibility
+The end result will determine the number of 'X Gains' required for the users ROI to be successful.
 
 ## Screenshots 
 <p float="left">
