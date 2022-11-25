@@ -1,6 +1,6 @@
 # <img src="https://github.com/nikhilsurfingaus/QuiverNFTWebApp/blob/master/public/favicon.ico" alt="drawing" width="100"/> CyrptoXGains Calculator Web App
 
-## Site Link: [https://cryptoxgainscalculator.netlify.app)
+## Site Link: [cryptoxgains.com.au](https://cryptoxgainscalculator.netlify.app/)
 
 ## Website Powered By 
 
