@@ -5,11 +5,13 @@
 ## Website Powered By 
 
 <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="drawing" width="100"/> <img 
-src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/gknmszuswhzcwxxxsuis" alt="drawing" width="100"/> <img src="https://www.kindpng.com/picc/m/730-7305731_transparent-ubuntu-logo-png-postman-log-png-download.png" alt="drawing" width="100"/>
+src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/gknmszuswhzcwxxxsuis" alt="drawing" width="100"/> <img src="https://www.kindpng.com/picc/m/730-7305731_transparent-ubuntu-logo-png-postman-log-png-download.png" alt="drawing" width="100"/> <img src="https://particles.js.org/tsParticles-64.png" alt="drawing" width="100"/>
 
 - The **React** Framework Library Web Application Crypto X Gains, can either be used in Mobile/Desktop/Tablet modes with responsive design. 
 
-- **PostMan** is the API client which handles requests to the **CoinStats** Cryptp API for metrics about the current crypto names, icons and symbols.
+- **PostMan** is the API client which handles requests to the **CoinStats** Cryptp API for metrics about the current crypto names, icons and symbols for the drop down menu within the form.
+
+- **tsParticles** is library used for the interatcive live particles background display, allowing for improved UX embedded within the User Interface.
 
 ## Description 
 The Crypto X Gains web application enabled users to determine how many "X" their ROI (Return On Investement) will be for a given Token/Currency.
