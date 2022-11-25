@@ -8,6 +8,7 @@ import './Form.css'
 import Select from 'react-select';
 import Axios from 'axios';
 import {useEffect} from 'react'
+import {IToasterTypes, NotificationToast, ToastEvent, toastEventManager} from "dyzz-toaster";
 
 function Form() {
 
@@ -78,8 +79,21 @@ function Form() {
       }
 
       function refreshPage(){
-        window.location.reload();
+        setCrypto("");
+        setInitialTokPrice("");
+        setTokens("");
+        setIntialInvestment("");
+        setSellTokPrice("");
+        setFinalInvestment("");
+        setXGain("");
+        setResult("")
+        reset();
     } 
+
+    const reset = () => {
+        toastEventManager.emit(ToastEvent.CREATE,
+          {timeOutDelay: 3500, indicateLine: true, text: 'All Fields Reset', type: IToasterTypes.NOTIFICATION})
+    };
 
   return (
     <form className='major animate__animated animate__fadeIn' onSubmit={(e)=> e.preventDefault()}>
@@ -131,6 +145,7 @@ function Form() {
             onClick={refreshPage}> <BiRefresh className='ref-icon'/>   
         </button>
 
+        <NotificationToast />
 
     </form>
   )

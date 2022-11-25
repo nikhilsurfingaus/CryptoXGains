@@ -55,6 +55,18 @@
     margin-top: 4px;
 }
 
+
+/* TOASTER  STYLE */
+
+.toaster-styles_notificationToast__3nUda {
+    color: #FFFFFF;
+    background: #2d6b80 !important;
+}
+
+.toaster-styles_toasterPercentage__2AHXe {
+    background: #d2ad56 !important;
+}
+
 @media only screen and (max-width: 768px) {
     .input-group-text {
         min-width: 178px !important;
@@ -69,7 +81,7 @@
         margin-left: 2px;
     }
     .drop {
-        width: 200px;
+        width: 165px;
     }
     .coin-logo {
         height: 22px;

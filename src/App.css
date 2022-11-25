@@ -21,4 +21,10 @@
     .display-1 {
         font-size: 3rem;
     }
+    .logo {
+        height: 80px;
+        width: auto;
+        z-index: 100000;
+        position: relative;
+    }
 }
