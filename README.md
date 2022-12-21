@@ -28,7 +28,7 @@ The application will then compute the following:
 
 **The end result will determine the number of 'X Gains' required for the users ROI to be successful.**
 
-## Demo 
+## Video Demo 
 [![Everything Is AWESOME](https://yt-embed.herokuapp.com/embed?v=oUecUjklhIg)](https://youtu.be/oUecUjklhIg "Crypto X Gain Web Application [LAUNCH  TRAILER]")
 
 ## Screenshots 
