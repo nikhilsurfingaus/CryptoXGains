@@ -1,4 +1,4 @@
-# <img src="https://github.com/nikhilsurfingaus/CryptoXGains/blob/master/src/Assets/github.png" alt="drawing" width="100"/> CyrptoXGains Calculator Web App
+# CyrptoXGains Calculator Web App <img src="https://github.com/nikhilsurfingaus/CryptoXGains/blob/master/src/Assets/github.png" alt="drawing" width="100"/> 
 
 ## Site Link: [cryptoxgains.com.au](https://cryptoxgainscalculator.netlify.app/)
 
@@ -28,17 +28,14 @@ The application will then compute the following:
 
 **The end result will determine the number of 'X Gains' required for the users ROI to be successful.**
 
+## Video Demo 
+[![Everything Is AWESOME](http://img.youtube.com/vi/oUecUjklhIg/hqdefault.jpg)](https://youtu.be/oUecUjklhIg "Crypto X Gain Web Application [LAUNCH  TRAILER]")
+
 ## Screenshots 
 <p float="left">
-  <img src="https://github.com/nikhilsurfingaus/QuiverNFTWebApp/blob/master/src/assets/github/1.jpg" height=300 width="320" />
-  <img src="https://github.com/nikhilsurfingaus/QuiverNFTWebApp/blob/master/src/assets/github/2nd.jpg" height=300 width="320" /> 
-  <img src="https://github.com/nikhilsurfingaus/QuiverNFTWebApp/blob/master/src/assets/github/3.jpg" height=300 width="320" />
-</p>
-
-<p float="left">
-  <img src="https://github.com/nikhilsurfingaus/QuiverNFTWebApp/blob/master/src/assets/github/4.jpg" height=300 width="320" />
-  <img src="https://github.com/nikhilsurfingaus/QuiverNFTWebApp/blob/master/src/assets/github/5.jpg" height=300 width="320" /> 
-  <img src="https://github.com/nikhilsurfingaus/QuiverNFTWebApp/blob/master/src/assets/github/6.jpg" height=300 width="320" />
+  <img src="https://github.com/nikhilsurfingaus/CryptoXGains/blob/master/src/Assets/Screenshots/1.jpg" width=45% />
+  <img src="https://github.com/nikhilsurfingaus/CryptoXGains/blob/master/src/Assets/Screenshots/2.jpg" width=45% /> 
+  <img src="https://github.com/nikhilsurfingaus/CryptoXGains/blob/master/src/Assets/Screenshots/3.jpg" width=70% />
 </p>
 
 ## Libraries
