@@ -20,6 +20,7 @@ function Form() {
     const [finalInvestment, setFinalInvestment] = useState("");
     const [xGain, setXGain] = useState("");
     const [result, setResult] = useState("")
+    const [displayResult, setDisplayResult] = useState(false)
 
     function roundHalf(num) {
         return Math.round(num*2)/2;
@@ -42,6 +43,7 @@ function Form() {
         var deciGain = roundHalf(finalInvest/intialInvestment);
         setXGain(deciGain);
         updateResult();
+        setDisplayResult(true)
         return xGain;
     }
 
@@ -87,6 +89,7 @@ function Form() {
         setFinalInvestment("");
         setXGain("");
         setResult("")
+        setDisplayResult(false)
         reset();
     } 
 
@@ -133,9 +136,13 @@ function Form() {
         <FormInputLabel dataType={"number"} text="Total Final Investment" icon={<FaDollarSign className='ico'/>} 
                 placeholder="Calculated Final Investement" readOnly={true} value={finalInvestment}/>
 
-        <h4 className="alert alert-info fw-bold">
+
+        {displayResult ? (
+            <h4 className="alert alert-info fw-bold">
             {xGain}{result}
-        </h4>
+            </h4>
+        ): null}
+
 
         <button type='submit' className='btn btn-dark btn-lg w-50 center' 
             onClick={calculateGains}> <BiRocket className='ref-icon rocket'/> Calculate  </button>
