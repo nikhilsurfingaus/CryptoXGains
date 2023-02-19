@@ -1,6 +1,6 @@
 # CyrptoXGains Calculator Web App <img src="https://github.com/nikhilsurfingaus/CryptoXGains/blob/master/src/Assets/github.png" alt="drawing" width="100"/> 
 
-## Site Link: [cryptoxgains.com.au](https://cryptoxgainscalculator.netlify.app/)
+## Link: [cryptoxgains.com.au](https://cryptoxgainscalculator.netlify.app/)
 
 ## Website Powered By 
 
