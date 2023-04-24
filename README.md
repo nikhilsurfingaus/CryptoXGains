@@ -1,4 +1,4 @@
-# CyrptoXGains Calculator Web Application <img src="https://github.com/nikhilsurfingaus/CryptoXGains/blob/master/src/Assets/github.png" alt="drawing" width="100"/> 
+# CyrptoXGains Calculator Web App <img src="https://github.com/nikhilsurfingaus/CryptoXGains/blob/master/src/Assets/github.png" alt="drawing" width="100"/> 
 
 ## Link: [cryptoxgains.com.au](https://cryptoxgainscalculator.netlify.app/)
 
