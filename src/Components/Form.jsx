@@ -6,7 +6,6 @@ import {BiRefresh, BiRocket} from "react-icons/bi"
 import {useState} from 'react'
 import './Form.css'
 import Select from 'react-select';
-import Axios from 'axios';
 import {useEffect} from 'react'
 import {IToasterTypes, NotificationToast, ToastEvent, toastEventManager} from "dyzz-toaster";
 
@@ -57,28 +56,50 @@ function Form() {
         }
     }
 
-    const [set, setList] = useState(false)
+    //const [set, setList] = useState(false)
 
     //API MAGIC STUFF HERE
-    const [listOfCoins, setListOfCoins] = useState([]);
+    //const [listOfCoins, setListOfCoins] = useState([]);
     const [newArr, setNewArr] = useState([]);
 
-    useEffect(() => {
-        Axios.get("https://api.coinstats.app/public/v1/coins?skip=0&limit=200").then(
-            (response) => {
-              setListOfCoins(response.data.coins);
-              coinToArr();
-            }).catch(err => console.log(err))
-      });
+        useEffect(() => {
+            const options = {
+                method: 'GET',
+                headers: {
+                    accept: 'application/json',
+                    'X-API-KEY': 'r/f2OW8soqrmcLwd9/oSbJP4Myqs6ffzgabhiRCml1g='
+                }
+            };
 
-      function coinToArr() {
-        listOfCoins.forEach((mapItem) => {
-            if (set === false) {
-                setNewArr(newArr => [...newArr, {value: mapItem.name, label: mapItem.symbol, logo: mapItem.icon}])
-                setList(true)
-            }
-        })
-      }
+            fetch('https://openapiv1.coinstats.app/coins?limit=200', options)
+                .then(response => response.json())
+                .then(response => {
+                    console.log(response); // Log the response object to inspect its structure
+
+                    if (response && response.result) {
+                        const coinData = response.result.map(item => ({
+                            value: item.name,
+                            label: item.symbol,
+                            logo: item.icon
+                            // Add other necessary properties as needed
+                        }));
+                        
+                        setNewArr(coinData);
+                    }
+                })
+                .catch(err => console.error(err));
+        }, []);
+
+
+    // Deprecated Function
+    //   function coinToArr() {
+    //     listOfCoins.forEach((mapItem) => {
+    //         if (set === false) {
+    //             setNewArr(newArr => [...newArr, {value: mapItem.name, label: mapItem.symbol, logo: mapItem.icon}])
+    //             setList(true)
+    //         }
+    //     })
+    //   }
 
       function refreshPage(){
         setCrypto("");
